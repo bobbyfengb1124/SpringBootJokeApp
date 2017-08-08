@@ -4,16 +4,15 @@
  */
 package guru.springframework.joke.jokeapp.config;
 
-import org.springframework.context.annotation.Bean;
-
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
 /**
  * 
  */
+// @Configuration
 public class ChuckConfiguration {
 
-	@Bean
+	// @Bean
 	public ChuckNorrisQuotes chuckNorrisQuotes() {
 		return new ChuckNorrisQuotes();
 	}
